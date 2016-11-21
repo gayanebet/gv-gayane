@@ -3,13 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Green valley</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="page-header">
 		<div class="page-header__inner"> 		<!-- контейнер -->
 <!-- test -->
 			<a href="" class="main-logo"><img src="" alt=""></a>
-
+			
 			<div class="main-nav">
 				<nav class="main-nav__nav">
 					<ul class="main-nav__list">
@@ -36,34 +37,44 @@
 	<div class="rest-type-switcher"><!-- БЛОК ПЕРЕКЛЮЧАТЕЛЬ -->
 
 	<ul class="rest-type-switcher__tab">
-		<li class="rest-type-switcher__tab-item "><a href="#rest-family">Cемейный отдых</a></li>
-		<li class="rest-type-switcher__tab-item"><a href="#rest-company">Корпоративный</a></li>
+		<li class="rest-type-switcher__tab-item "><a href="#rest-family">Cемейный отдых</a></li><!-- кнопки -->
+		<li class="rest-type-switcher__tab-item"><a href="#rest-company">Корпоративный</a></li><!-- кнопки -->
 	</ul>
 
-		<div class="rest-type-switcher__type">
-			<section id="rest-family"class="rest-type-switcher__type-item">
+		<div class="rest-type-switcher__type"><!-- слайдер -->
+			<section id="rest-family" class="rest-type-switcher__type-item"><!-- семейный -->
 				<div class="rest-type-switcher__type-inner">
 					<h1 class="rest-type-switcher__type-title">Семейный отдых</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, deleniti!</p>
 				</div>
 			</section>
-			<section id="rest-company" class="rest-type-switcher__type-item">
+			<section id="rest-company" class="rest-type-switcher__type-item"><!-- корпоративный -->
 				<div class="rest-type-switcher__type-inner">
 					<h1 class="rest-type-switcher__type-title">Корпоративный отдых</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, deleniti!</p>
 				</div>
 			</section>
 		</div>
-
+<!-- КОРОЧЕ Я ЗАПУТАЛАСЬ -->
 		<div class="rest-type-switcher__options">
 			<section id="rest-family"class="rest-type-switcher__options-item">
 				<div class="rest-type-switcher__options-inner">
 					<h1 class="rest-type-switcher__options-title">Здоровый отдых</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, deleniti!</p>
+					<p>Плавайте в бассейне, играйте в волейбол, футбол и другие игры. Устройте семейный пикник с шашлыками или снимите напряжение в бане или спа. Почувствуйте отдых!</p>
 					<ul class="rest-type-switcher__options-list">
 						<li>
 						<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
-						<span class="rest-type-switcher__options-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, eum.	</span>
+						<span class="rest-type-switcher__options-text">БАССЕЙН</span>
+						<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
+						<span class="rest-type-switcher__options-text">СПОРТИВНАЯ ПЛОЩАДКА</span>
+						<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
+						<span class="rest-type-switcher__options-text">БИЛЬЯРД</span>
+						<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
+						<span class="rest-type-switcher__options-text">СПА</span>
+						<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
+						<span class="rest-type-switcher__options-text">БАНИ</span>
+						<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
+						<span class="rest-type-switcher__options-text">АНИМАЦИЯ</span>
 						</li>
 					</ul>
 				</div>
@@ -84,14 +95,15 @@
 
 		<div class="reviewes__slider">
 
-			<div class="reviews__item">
-				<span class="reviews__item-pic" slyle="background-image:url();"></span>
-				<span class="reviews__item-name">Екатерина В.</span>
+			<div class="reviews__item"> 
+				<div class="reviews__item-pic""> <img src="" alt=""> </div>
+				<p class="reviews__item-name">Екатерина В.</p>
 				<a href="" class="reviews__item-ico--vk"></a>
 				<p class="reviews__item-text">Наша семья счастлива, что открыла для себя Green Valley. Замечательный, комфортный отдых. Хорошее место, приветливый персонал, вкусная еда. Стали постоянными гостями!</p>
-				<div class="reviews__item-date">Дата отдыха: <br> 01.06.2015 - 08.06.2015</div>
+				<div class="reviews__item-date">Дата отдыха: 01.06.2015 - 08.06.2015</div>
 			</div>
-			<a href="" class="btn btn--bg-none btn--round">ВСЕ ОТЗЫВЫ</a>
+
+			<a href="" class="btn btn--bg-none btn--oval">ВСЕ ОТЗЫВЫ</a>
 		</div>
 <div class="advice">
 	<h1 class="advice__title">Акции и предложения</h1>
@@ -126,12 +138,12 @@
 
 <div class="rest-types">
 	<h1 class="rest-types__title">Где вы хотите отдыхать?</h1>
-	<span class="rest-types__type"><span class="rest-types__type-description"></span></span>
-	<span class="rest-types__type"><span class="rest-types__type-description"></span></span>
+	<span class="rest-types__type"><p class="rest-types__type-description"></p></span>
+	<span class="rest-types__type"><p class="rest-types__type-description"></p></span>
 </div>
 
 <footer class="page-footer">
-	<span class="page-footer__address">Приморское шоссе <br> г. Санкт-Петербург</span>
+	<span class="page-footer__address">Приморское шоссе г. Санкт-Петербург</span>
 	<a href="" class="main-logo"><img src="" alt=""></a>
 	<a href="" class="page-footer__ico--vk"></a>
 	<a href="" class="page-footer__ico--fb"></a>
