@@ -1,147 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Green valley</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<header class="page-header">
-		<div class="page-header__inner"> 		<!-- контейнер -->
-<!-- test -->
-			<a href="" class="main-logo"><img src="" alt=""></a>
+	<head>
+		<meta charset="UTF-8">
+		<title>Green valley</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700|PT+Serif+Caption" rel="stylesheet">
+	</head>
+	<body>
+		<header class="page-header">
+			<div class="page-header__inner"><!-- контейнер -->
+			<!-- test -->
+			<a href="" class="main-logo"><img src="img/logo.png" alt=""></a>
 			
 			<div class="main-nav">
 				<nav class="main-nav__nav">
 					<ul class="main-nav__list">
-						<li class="main-nav__item"><a class="main-nav__link" href="">НОМЕРА</a></li>
+						<li class="main-nav__item"><a class="main-nav__link main-nav__link--active" href="">НОМЕРА</a></li>
 						<li class="main-nav__item"><a class="main-nav__link" href="">КОТЕДЖ</a></li>
-						<li class="main-nav__item main-nav__item--active"><a class="main-nav__link" href=""></a>РЕСТОРАН</li>
+						<li class="main-nav__item"><a class="main-nav__link" href="">РЕСТОРАН</a></li>
 						<li class="main-nav__item"><a class="main-nav__link" href="">ОТДЫХ</a></li>
 						<li class="main-nav__item"><a class="main-nav__link" href="">КОНТАКТЫ</a></li>
 					</ul>
 				</nav>
 				<span class="main-nav__toggler"></span>
 			</div>
-
 			<div class="page-header__contacts">
-				<a href="tel:+78127775588" class="page-header__phone-link">+7 812 777-55-88</a>
-				<div class="page-header__address">г. Санкт-Петербург, ул. Малая морская</div>
+				<a href="tel:+78127775588" class="page-header__phone-link ">+7 812 777-55-88</a>
+				<div class="page-header__address small">г. Санкт-Петербург, ул. Малая морская</div>
 			</div>
-
-			<a href="#booking-form" class="btn btn--bg-orange btn--icon-calendar">ЗАБРОНИРОВАТЬ</a>
-
+			<div class="header__btn"><a href="#booking-form" class="btn btn--orange-ico">ЗАБРОНИРОВАТЬ</a></div>
+			
 		</div>
 	</header>
 	
 	<div class="rest-type-switcher"><!-- БЛОК ПЕРЕКЛЮЧАТЕЛЬ -->
+	<div class="rest-type-switcher__inner">
+	<div class="rest-type-switcher__type">
 
-	<ul class="rest-type-switcher__tab">
-		<li class="rest-type-switcher__tab-item "><a href="#rest-family">Cемейный отдых</a></li><!-- кнопки -->
-		<li class="rest-type-switcher__tab-item"><a href="#rest-company">Корпоративный</a></li><!-- кнопки -->
-	</ul>
+		<section id="rest-family" class="rest-type-switcher__type-item"><!-- семейный -->
+		<div class="rest-type-switcher__type-inner">
+			<h1 class="rest-type-switcher__type-title">Семейный отдых на берегу Финского залива.</h1>
+			<p>Green Valley - это современная база отдыха в курортном районе для здорового отдыха всей семёй.</p>
+		</div>
+	</section>
 
-		<div class="rest-type-switcher__type"><!-- слайдер -->
-			<section id="rest-family" class="rest-type-switcher__type-item"><!-- семейный -->
-				<div class="rest-type-switcher__type-inner">
-					<h1 class="rest-type-switcher__type-title">Семейный отдых</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, deleniti!</p>
-				</div>
-			</section>
-			<section id="rest-company" class="rest-type-switcher__type-item"><!-- корпоративный -->
-				<div class="rest-type-switcher__type-inner">
+		<section id="rest-coany" class="rest-type-switcher__type-item">
+			<div class="rest-type-switcher__type-inner">
 					<h1 class="rest-type-switcher__type-title">Корпоративный отдых</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, deleniti!</p>
-				</div>
-			</section>
-		</div>
-<!-- КОРОЧЕ Я ЗАПУТАЛАСЬ -->
-		<div class="rest-type-switcher__options">
-			<section id="rest-family"class="rest-type-switcher__options-item">
-				<div class="rest-type-switcher__options-inner">
-					<h1 class="rest-type-switcher__options-title">Здоровый отдых</h1>
-					<p>Плавайте в бассейне, играйте в волейбол, футбол и другие игры. Устройте семейный пикник с шашлыками или снимите напряжение в бане или спа. Почувствуйте отдых!</p>
-					<ul class="rest-type-switcher__options-list">
-						<li>
-						<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
-						<span class="rest-type-switcher__options-text">БАССЕЙН</span>
-						<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
-						<span class="rest-type-switcher__options-text">СПОРТИВНАЯ ПЛОЩАДКА</span>
-						<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
-						<span class="rest-type-switcher__options-text">БИЛЬЯРД</span>
-						<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
-						<span class="rest-type-switcher__options-text">СПА</span>
-						<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
-						<span class="rest-type-switcher__options-text">БАНИ</span>
-						<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
-						<span class="rest-type-switcher__options-text">АНИМАЦИЯ</span>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section id="rest-company" class="rest-type-switcher__options-item">
-				<div class="rest-type-switcher__options-inner">
-					<h1 class="rest-type-switcher__options-title">Корпоративный отдых</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, deleniti!</p>
-				</div>
-			</section>
-		</div>
-	</div><!-- БЛОК ПЕРЕКЛЮЧАТЕЛЬ -->
-
-	<div class="gallery-slider"></div>
-
-	<div class="reviewes"><!-- АКЦИИ И ПРЕДЛОЖЕНИЯ -->
-		<h1 class="reviewes__title">Отзывы</h1>
-
-		<div class="reviewes__slider">
-
-			<div class="reviews__item"> 
-				<div class="reviews__item-pic""> <img src="" alt=""> </div>
-				<p class="reviews__item-name">Екатерина В.</p>
-				<a href="" class="reviews__item-ico--vk"></a>
-				<p class="reviews__item-text">Наша семья счастлива, что открыла для себя Green Valley. Замечательный, комфортный отдых. Хорошее место, приветливый персонал, вкусная еда. Стали постоянными гостями!</p>
-				<div class="reviews__item-date">Дата отдыха: 01.06.2015 - 08.06.2015</div>
 			</div>
+		</section>
 
-			<a href="" class="btn btn--bg-none btn--oval">ВСЕ ОТЗЫВЫ</a>
+</div>
+</div>
+
+<ul class="rest-type-switcher__tab">
+	<li class="rest-type-switcher__tab-item "><a href="#rest-family">Cемейный отдых</a></li><!-- кнопки -->
+	<li class="rest-type-switcher__tab-item"><a href="#rest-company">Корпоративный</a></li><!-- кнопки -->
+</ul>
+
+<div class="rest-type-switcher__options">
+	<section id="rest-family" class="rest-type-switcher__options-item">
+		<div class="rest-type-switcher__options-inner">
+			<h1 class="rest-type-switcher__options-title">Здоровый отдых</h1>
+			<p>Плавайте в бассейне, играйте в волейбол, футбол и другие игры. Устройте семейный пикник с шашлыками или снимите напряжение в бане или спа. Почувствуйте отдых!</p>
+			<ul class="rest-type-switcher__options-list">
+				<li>
+					<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
+					<span class="rest-type-switcher__options-text">БАССЕЙН</span>
+					<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
+					<span class="rest-type-switcher__options-text">СПОРТИВНАЯ ПЛОЩАДКА</span>
+					<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
+					<span class="rest-type-switcher__options-text">БИЛЬЯРД</span>
+					<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
+					<span class="rest-type-switcher__options-text">СПА</span>
+					<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
+					<span class="rest-type-switcher__options-text">БАНИ</span>
+					<span class="rest-type-switcher__options-pic" slyle="background-image:url();"></span>
+					<span class="rest-type-switcher__options-text">АНИМАЦИЯ</span>
+				</li>
+			</ul>
 		</div>
+	</section>
+	<!-- 			<section id="rest-company" class="rest-type-switcher__options-item">
+		<div class="rest-type-switcher__options-inner">
+				<h1 class="rest-type-switcher__options-title">Корпоративный отдых</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, deleniti!</p>
+		</div>
+	</section> -->
+</div>
+	</div><!-- БЛОК ПЕРЕКЛЮЧАТЕЛЬ -->
+<div class="gallery-slider"></div>
+<div class="reviewes"><!-- АКЦИИ И ПРЕДЛОЖЕНИЯ -->
+<h1 class="reviewes__title">Отзывы</h1>
+<div class="reviewes__slider">
+	<div class="reviews__item">
+		<div class="reviews__item-pic""> <img src="" alt=""> </div>
+		<p class="reviews__item-name">Екатерина В.</p>
+		<a href="" class="reviews__item-ico--vk"></a>
+		<p class="reviews__item-text">Наша семья счастлива, что открыла для себя Green Valley. Замечательный, комфортный отдых. Хорошее место, приветливый персонал, вкусная еда. Стали постоянными гостями!</p>
+		<div class="reviews__item-date">Дата отдыха: 01.06.2015 - 08.06.2015</div>
+	</div>
+	<a href="" class="btn btn--oval">ВСЕ ОТЗЫВЫ</a>
+</div>
 <div class="advice">
 	<h1 class="advice__title">Акции и предложения</h1>
-
 	<div id="promotion--may" class="advice__promotion--may">
 		<div class="advice__promotion-title">СКИДКИ В МАЕ</div>
 		<div class="advice__promotion-text">Забронируйте номер или коттедж любой категории до 31 июня и получите скидку 10% !</div>
 	</div>
-
 	<div id="promotion--july" class="advice__promotion--july" >
 		<div class="advice__promotion-title">СКИДКИ В ИЮЛЕ</div>
 		<div class="advice__promotion-text">Забронируйте номер или коттедж любой категории до 31 июля и получите скидку 10% !</div>
 	</div>
-
 	<ul class="promotion-switcher__tab">
 		<li class="promotion-switcher__tab-item "><a href="#promotion--may"></a></li>
 		<li class="promotion-switcher__tab-item"><a href="#promotion--july"></a></li>
 	</ul>
-
 </div>
-	</div><!-- Акции и предложения -->
-
-
+</div><!-- Акции и предложения -->
 <div class="destination-map"><!-- КАК ДО НАС ДОБРАТЬСЯ -->
-	<div class="destination-map__title"></div>
-	<div class="map"></div>
-	<h2 class="destination-map__description-title"></h2>
-	<p class="destination-map__description-text"></p>
-	<h2 class="destination-map__description-title"></h2>
-	<p class="destination-map__description-text"></p>
+<div class="destination-map__title"></div>
+<div class="map"></div>
+<h2 class="destination-map__description-title"></h2>
+<p class="destination-map__description-text"></p>
+<h2 class="destination-map__description-title"></h2>
+<p class="destination-map__description-text"></p>
 </div><!-- Как до нас добраться -->
-
 <div class="rest-types">
 	<h1 class="rest-types__title">Где вы хотите отдыхать?</h1>
 	<span class="rest-types__type"><p class="rest-types__type-description"></p></span>
 	<span class="rest-types__type"><p class="rest-types__type-description"></p></span>
 </div>
-
 <footer class="page-footer">
 	<span class="page-footer__address">Приморское шоссе г. Санкт-Петербург</span>
 	<a href="" class="main-logo"><img src="" alt=""></a>
